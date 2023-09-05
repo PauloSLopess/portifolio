@@ -40,7 +40,8 @@ body * {
 }
 
 #container {
-  width: 360px;
+  width: 100%;
+  max-width: 588px;
   /*border: 1px solid red;*/
   margin: auto;
   margin-top: 56px;
@@ -66,7 +67,6 @@ body * {
 
 /*switch*/
 #switch {
- 
   width: 64px;
   position: relative;
   margin: 4px auto;
